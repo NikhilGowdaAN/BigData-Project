@@ -1,0 +1,4 @@
+sensor_id,volume,speed,events,alerts
+S1,757,46.05,20,3
+S2,678,37.8,20,3
+S3,674,46.25,20,2

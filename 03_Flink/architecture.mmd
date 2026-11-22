@@ -1,0 +1,9 @@
+flowchart LR
+ S[Synthetic vital source] --> W[Event timestamps and watermarks]
+ W --> A[Threshold filter] --> O[Alert output]
+ W --> R[Reading output]
+ W --> K[Patient key and 10-second event-time window] --> M[Mean summary output]
+ O --> L[Task manager log]
+ R --> L
+ M --> L
+ L --> P[Validated plots]

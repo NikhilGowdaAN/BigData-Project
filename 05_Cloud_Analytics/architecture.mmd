@@ -1,0 +1,7 @@
+flowchart LR
+ A[Synthetic server_logs.csv] --> B[Local Python analysis]
+ B --> C[Summary tables and plots]
+ subgraph Proposed cloud deployment
+ D[Application logs] --> E[Managed ingestion] --> F[Object storage]
+ F --> G[Managed ETL and query] --> H[Dashboard and alerts]
+ end

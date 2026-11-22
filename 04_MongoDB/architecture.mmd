@@ -1,0 +1,6 @@
+flowchart LR
+ J[products.json] --> G[Local pandas plots]
+ J --> M[mongosh import script]
+ M --> C[Dedicated MongoDB products collection]
+ C --> Q[CRUD, indexes and query plan]
+ C --> V[Compass inspection]

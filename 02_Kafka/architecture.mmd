@@ -1,0 +1,6 @@
+flowchart LR
+    P[Python synthetic sensor producer] -->|JSON| T[Kafka traffic-sensors topic]
+    T --> C[Consumer group]
+    C --> A[Congestion rule and console alert]
+    C --> F[Captured event CSV]
+    F --> G[Matplotlib figures]

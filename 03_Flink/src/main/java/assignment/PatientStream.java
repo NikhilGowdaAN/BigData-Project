@@ -30,6 +30,7 @@ public class PatientStream {
   public static void main(String[] args) throws Exception {
     StreamExecutionEnvironment env=StreamExecutionEnvironment.getExecutionEnvironment(); env.setParallelism(1);
     var vitals=env.addSource(new Sensor()).assignTimestampsAndWatermarks(WatermarkStrategy.<Vital>forBoundedOutOfOrderness(Duration.ofSeconds(1)).withTimestampAssigner((v,t)->v.timestamp));
+    vitals.map(v->"READING "+v).print();
     vitals.filter(v->v.heartRate>120 || v.temperature>=38.0).map(v->"ALERT "+v).print();
     vitals.keyBy(v->v.patient).window(TumblingEventTimeWindows.of(Time.seconds(10))).process(new Summary()).print();
     env.execute("Synthetic patient vitals");
