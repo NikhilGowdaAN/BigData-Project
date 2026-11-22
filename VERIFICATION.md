@@ -1,5 +1,13 @@
 # Verification record
 
+## Visualization update
+
+- PASS: Hive graph script ran with Python 3.12 and checked all supplied product and branch totals and total revenue against the CSV. Four PNG and four SVG files were generated. The transcript contains the command but no Hive result tables, so it does not independently verify the supplied Hive results.
+- PASS: Cloud graph script generated four PNG and four SVG files from 480 CSV log rows, including 29 errors.
+- PASS: MongoDB graph script generated four PNG and four SVG files from 24 JSON products. No database was contacted.
+- PASS: Kafka 3.9.0 KRaft broker accepted 60 synthetic producer events; a consumer read them and saved the CSV. The chart script validated the rule and generated four PNG and SVG files, with 8 alerts.
+- NOT TESTED / NOT IMPLEMENTED: Flink graph generation, runtime capture, and reports. No claims of their execution are made.
+
 Checks performed in the creation environment on 2026-11-22:
 
 - `docker compose config --quiet` succeeded. The Docker client warned that its user configuration was inaccessible.

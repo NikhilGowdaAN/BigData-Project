@@ -1,5 +1,9 @@
 # Big Data Assignment 2: practical projects
 
+Visualization work in progress: run `python 01_Hive/graphs.py`, `python 05_Cloud_Analytics/graphs.py`, or `python 04_MongoDB/graphs.py` from the project root. Each writes PNG and SVG files to its activity's `graphs` directory. The MongoDB charts use the JSON dataset and do not connect to the database. The Hive report is at [01_Hive/REPORT.md](01_Hive/REPORT.md). Flink visualization work and the other reports are still pending.
+
+Kafka charts can be regenerated with `python 02_Kafka/graphs.py` from the recorded `02_Kafka/outputs/traffic_events.csv`. To capture a new run, start Kafka as described below, then run the consumer with a fresh group and an output file, for example `python 02_Kafka/consumer.py --group fresh-demo --max-messages 30 --output 02_Kafka/outputs/new_events.csv`, and run the producer in another terminal. Generate its charts using `python 02_Kafka/graphs.py --input 02_Kafka/outputs/new_events.csv`. The consumer appends to existing files; choose a new path to keep captures separate.
+
 Five independent demonstrations for Windows. Data and alerts are synthetic; they do not represent real sales, patients, traffic, infrastructure usage, or clinical guidance. See REPORT_CONTENT.md for explanatory notes, not a final report. See VERIFICATION.md for what was actually tested.
 
 ## Setup

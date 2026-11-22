@@ -1,0 +1,5 @@
+﻿flowchart LR
+  D[Docker Hive container] --> H[HiveServer2]
+  B[Beeline client] -->|HiveQL| H
+  C[Sales CSV] --> T[Hive sales table]
+  H --> T --> Q[Query processing] --> R[Aggregated results]
