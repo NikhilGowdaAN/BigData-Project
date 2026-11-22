@@ -1,4 +1,4 @@
-$ErrorActionPreference = 'Stop'
+$ErrorActionPreference = 'Continue'
 Set-Location (Join-Path $PSScriptRoot '..')
 docker compose --profile hive up -d
 if ($LASTEXITCODE -ne 0) { throw 'Hive startup failed' }
