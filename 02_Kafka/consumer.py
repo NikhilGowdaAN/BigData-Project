@@ -6,7 +6,7 @@ from common import TOPIC, classify, decode
 
 def main():
     p = argparse.ArgumentParser(); p.add_argument('--bootstrap', default='localhost:9092'); p.add_argument('--group', default='traffic-demo'); p.add_argument('--max-messages', type=int, default=0); p.add_argument('--output', type=Path, help='Append broker-consumed events to CSV'); args = p.parse_args()
-    consumer = KafkaConsumer(TOPIC, bootstrap_servers=args.bootstrap, group_id=args.group, auto_offset_reset='earliest', enable_auto_commit=True, api_version_auto_timeout_ms=10000)
+    consumer = KafkaConsumer(TOPIC, bootstrap_servers=args.bootstrap, group_id=args.group, auto_offset_reset='earliest', enable_auto_commit=True)
     print('Listening for traffic events (Ctrl+C to stop)...', flush=True)
     try:
         for msg in consumer:

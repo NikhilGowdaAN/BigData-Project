@@ -1,4 +1,4 @@
-$ErrorActionPreference = 'Stop'
+$ErrorActionPreference = 'Continue
 Set-Location (Join-Path $PSScriptRoot '..')
 docker compose --profile kafka up -d
 if ($LASTEXITCODE -ne 0) { throw 'Kafka startup failed' }
