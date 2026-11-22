@@ -1,0 +1,290 @@
+[
+  {
+    "sku": "SKU001",
+    "name": "Laptop Stand 1",
+    "category": "Accessories",
+    "price": 134,
+    "stock": 7,
+    "tags": [
+      "catalog",
+      "demo"
+    ],
+    "active": true
+  },
+  {
+    "sku": "SKU002",
+    "name": "Wireless Mouse 2",
+    "category": "Electronics",
+    "price": 169,
+    "stock": 14,
+    "tags": [
+      "catalog",
+      "demo"
+    ],
+    "active": true
+  },
+  {
+    "sku": "SKU003",
+    "name": "Notebook 3",
+    "category": "Stationery",
+    "price": 204,
+    "stock": 21,
+    "tags": [
+      "catalog",
+      "demo"
+    ],
+    "active": true
+  },
+  {
+    "sku": "SKU004",
+    "name": "Water Bottle 4",
+    "category": "Home",
+    "price": 239,
+    "stock": 28,
+    "tags": [
+      "catalog",
+      "demo"
+    ],
+    "active": true
+  },
+  {
+    "sku": "SKU005",
+    "name": "Headphones 5",
+    "category": "Accessories",
+    "price": 274,
+    "stock": 35,
+    "tags": [
+      "catalog",
+      "demo"
+    ],
+    "active": true
+  },
+  {
+    "sku": "SKU006",
+    "name": "Desk Lamp 6",
+    "category": "Electronics",
+    "price": 309,
+    "stock": 1,
+    "tags": [
+      "catalog",
+      "demo"
+    ],
+    "active": true
+  },
+  {
+    "sku": "SKU007",
+    "name": "Laptop Stand 7",
+    "category": "Stationery",
+    "price": 344,
+    "stock": 8,
+    "tags": [
+      "catalog",
+      "demo"
+    ],
+    "active": true
+  },
+  {
+    "sku": "SKU008",
+    "name": "Wireless Mouse 8",
+    "category": "Home",
+    "price": 379,
+    "stock": 15,
+    "tags": [
+      "catalog",
+      "demo"
+    ],
+    "active": true
+  },
+  {
+    "sku": "SKU009",
+    "name": "Notebook 9",
+    "category": "Accessories",
+    "price": 414,
+    "stock": 22,
+    "tags": [
+      "catalog",
+      "demo"
+    ],
+    "active": true
+  },
+  {
+    "sku": "SKU010",
+    "name": "Water Bottle 10",
+    "category": "Electronics",
+    "price": 449,
+    "stock": 29,
+    "tags": [
+      "catalog",
+      "demo"
+    ],
+    "active": true
+  },
+  {
+    "sku": "SKU011",
+    "name": "Headphones 11",
+    "category": "Stationery",
+    "price": 484,
+    "stock": 36,
+    "tags": [
+      "catalog",
+      "demo"
+    ],
+    "active": true
+  },
+  {
+    "sku": "SKU012",
+    "name": "Desk Lamp 12",
+    "category": "Home",
+    "price": 519,
+    "stock": 2,
+    "tags": [
+      "catalog",
+      "demo"
+    ],
+    "active": true
+  },
+  {
+    "sku": "SKU013",
+    "name": "Laptop Stand 13",
+    "category": "Accessories",
+    "price": 554,
+    "stock": 9,
+    "tags": [
+      "catalog",
+      "demo"
+    ],
+    "active": true
+  },
+  {
+    "sku": "SKU014",
+    "name": "Wireless Mouse 14",
+    "category": "Electronics",
+    "price": 589,
+    "stock": 16,
+    "tags": [
+      "catalog",
+      "demo"
+    ],
+    "active": true
+  },
+  {
+    "sku": "SKU015",
+    "name": "Notebook 15",
+    "category": "Stationery",
+    "price": 624,
+    "stock": 23,
+    "tags": [
+      "catalog",
+      "demo"
+    ],
+    "active": true
+  },
+  {
+    "sku": "SKU016",
+    "name": "Water Bottle 16",
+    "category": "Home",
+    "price": 659,
+    "stock": 30,
+    "tags": [
+      "catalog",
+      "demo"
+    ],
+    "active": true
+  },
+  {
+    "sku": "SKU017",
+    "name": "Headphones 17",
+    "category": "Accessories",
+    "price": 694,
+    "stock": 37,
+    "tags": [
+      "catalog",
+      "demo"
+    ],
+    "active": true
+  },
+  {
+    "sku": "SKU018",
+    "name": "Desk Lamp 18",
+    "category": "Electronics",
+    "price": 729,
+    "stock": 3,
+    "tags": [
+      "catalog",
+      "demo"
+    ],
+    "active": true
+  },
+  {
+    "sku": "SKU019",
+    "name": "Laptop Stand 19",
+    "category": "Stationery",
+    "price": 764,
+    "stock": 10,
+    "tags": [
+      "catalog",
+      "demo"
+    ],
+    "active": true
+  },
+  {
+    "sku": "SKU020",
+    "name": "Wireless Mouse 20",
+    "category": "Home",
+    "price": 799,
+    "stock": 17,
+    "tags": [
+      "catalog",
+      "demo"
+    ],
+    "active": true
+  },
+  {
+    "sku": "SKU021",
+    "name": "Notebook 21",
+    "category": "Accessories",
+    "price": 834,
+    "stock": 24,
+    "tags": [
+      "catalog",
+      "demo"
+    ],
+    "active": true
+  },
+  {
+    "sku": "SKU022",
+    "name": "Water Bottle 22",
+    "category": "Electronics",
+    "price": 869,
+    "stock": 31,
+    "tags": [
+      "catalog",
+      "demo"
+    ],
+    "active": true
+  },
+  {
+    "sku": "SKU023",
+    "name": "Headphones 23",
+    "category": "Stationery",
+    "price": 904,
+    "stock": 38,
+    "tags": [
+      "catalog",
+      "demo"
+    ],
+    "active": true
+  },
+  {
+    "sku": "SKU024",
+    "name": "Desk Lamp 24",
+    "category": "Home",
+    "price": 939,
+    "stock": 4,
+    "tags": [
+      "catalog",
+      "demo"
+    ],
+    "active": true
+  }
+]
